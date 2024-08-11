@@ -5,6 +5,18 @@
         height: auto;
         
     }
+    .banner-img-container {
+        width: auto;
+    }
+    .workout{
+        height: 90px;
+        width: 200px;
+    }
+    .tutorial{
+        height: 90px;
+        width: 200px;
+        right: -25%;
+    }
     .banner-container{
         height: auto;
         gap: 20px;
@@ -21,6 +33,17 @@
     }
     .run{
         gap: 10px;
+    }
+    .training{
+        margin: 0 20px;
+        margin-top: 50px;
+    }
+    .training-img1 {
+
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .training-img2 {
+        grid-template-columns: 1fr 1fr 1fr; 
     }
     .bmi-title{
         width: 80%;
@@ -45,6 +68,29 @@
     .purchase-section{
         flex-direction: column;
     }
+    .footer {
+        width: 100%;
+    }
+    .footer-content{
+        width: 90%;
+        height: auto;
+        grid-template-columns: 1fr;
+        margin: 0 20px;
+    }
+    .left ,.service{
+        width: 60%;
+        margin-left: 20px;
+    }
+    .service{
+        width: 80%;
+    }
+    .service>h2{
+        text-align: start;
+      }
+    .middle{
+        margin-right: 50px;
+    }
+    
 }
 @media screen and (max-width:576px) {
     .primary-title{
@@ -88,9 +134,9 @@
         max-width: 180px;
         margin: 0;
     }
-    .banner-image-container{
+    .banner-img-container{
+        width: 70%;
         margin: 0 auto; 
-        overflow: hidden;  
     }
     .workout{
         height: 13%;
@@ -133,14 +179,22 @@
     .run-btn>.btn{
         width: 350px;
     }
+    .training{
+        max-width: 90%;
+        margin-top: 50px;
+    }
     .training-img1 {
 
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 0px; 
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+        margin-bottom: 5px; 
     }
     .training-img2 {
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 0px; 
+        grid-template-columns: 1fr 1fr;
+        gap: 5px; 
+    }
+    .hide-img{
+        display: none;
     }
     .bmi-title{
         width: 85%;
@@ -155,18 +209,45 @@
     .bmi-calculator{
         width: 85%;
     }
+    .team {
+        margin: 40px 50px;
+    }
     .team-img-container {
         grid-template-columns: repeat(1, 1fr);
     }
     .team-img {
-        width: 300px;
-        
+        width: 80%;
+        height: auto;
     }
     .purchase-section{
         flex-direction: column;
     }
     .text-container ul {
         grid-template-columns: repeat(1, 1fr);
+    }
+    .footer {
+        width: 100%;
+    }
+    .footer-content{
+        grid-template-columns: 1fr;
+        margin: 10px 20px;
+    }
+    .left ,.service{
+        width: 60%;
+        margin-left: 20px;
+    }
+    .service{
+        width: 80%;
+    }
+    .service>div{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .service>h2{
+        text-align: start;
+      }
+    .middle{
+        margin-right: 50px;
     }
 
 }
