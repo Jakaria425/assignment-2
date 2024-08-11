@@ -1,0 +1,142 @@
+
+@media screen and (min-width:576px) and (max-width:993px){
+    .banner{
+        flex-direction: column;
+        height: auto;
+        
+    }
+    .banner-container{
+        height: auto;
+        gap: 20px;
+        width: 85%;
+    }
+    .habit{
+        height: auto;
+        margin: 0px 58px;
+    }
+    .habit-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .run{
+        gap: 10px;
+    }
+    .bmi-title{
+        width: 80%;
+    }
+    .bmi-container{
+        flex-direction: column;
+        padding: 70px 50px;
+    }
+    .bmi-chart{
+        width: 90%;
+    }
+    .bmi-calculator{
+        width: 100%;
+    }
+}
+@media screen and (max-width:576px) {
+    .primary-title{
+        font-size: 2.3rem;
+    }
+    .header{
+        height: auto;
+    }
+    .nav{
+        padding: 20px;
+    }
+    .nav-icon{
+        display: block;
+        
+        left: 20px;
+    }
+    .nav-icon>img{
+        width: 24px;
+        height: 24px;
+    }
+    .nav-container{
+        display: none;
+    }
+    .banner{
+        flex-direction: column;
+        height: auto;
+    }
+    .banner-container{
+        height: auto;
+        gap: 20px;
+        width: 90%;
+    }
+    .banner-container h1{
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    .banner-btn{
+        justify-content: space-around;
+    }
+    .banner-btn>button{
+        max-width: 180px;
+        margin: 0;
+    }
+    .banner-image-container{
+        margin: 0 auto; 
+        overflow: hidden;  
+    }
+    .tutorial{
+        width: 50%;
+        right: -12%;
+    }
+
+    .habit{
+        height: auto;
+    }
+    .habit-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .run{
+        flex-direction: column;
+        gap: 10px;
+        width: 90%;
+        height: auto;
+        align-items: center; 
+    }
+    .run-description{
+        width: 90%;
+        margin-left: 0px;
+        padding: 40px;
+    }
+    .run-img-box{
+        width: 90%;
+        margin-right: 0px;
+    }
+    .run-btn{
+        justify-content: center;
+    }
+    .run-btn>.btn{
+        width: 350px;
+    }
+    .training-img1 {
+
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 0px; 
+    }
+    .training-img2 {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 0px; 
+    }
+    .bmi-title{
+        width: 85%;
+    }
+    .bmi-container{
+        flex-direction: column;
+        padding: 70px 10px;
+    }
+    .bmi-chart{
+        width: 85%;
+    }
+    .bmi-calculator{
+        width: 85%;
+    }
+
+}
